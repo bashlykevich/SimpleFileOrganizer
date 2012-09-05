@@ -5,12 +5,20 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimpleFileOrganizer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Simple File Organizer")]
+[assembly: AssemblyDescription(@"   Simple File Organizer is a program for quick and convenient file organizing by type.
+   This program would allow you sorting the files by folders in accordance with their type. You can create special filters, which would specify files with which extension should be copied/replaced in to which folder.
+   Advantages:
+- simple and user-friendly interface;
+- unlimited number of user filters;
+- quick copying/replacing of files (multithread algorhythm);
+- it's FREE
+
+   If you have any ideas concerning improvement of the program or collaboration, feel free to contact me by e-mail bashlykevich@gmail.com")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleFileOrganizer")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("bashlykevich.net - bashlykevich@gmail.com")]
+[assembly: AssemblyProduct("Simple File Organizer")]
+[assembly: AssemblyCopyright("Copyright © Sergey Bashlykevich 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +28,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("400f4323-6bbc-40fe-9434-922d04cab527")]
+[assembly: Guid("023c3ccc-fa69-4b43-aa60-4ad659927e44")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,6 +39,6 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.*")]
+//[assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
